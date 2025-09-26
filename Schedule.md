@@ -7,13 +7,12 @@ make sure you are referring to the latest versions.
 
 
 - Week 1
-  - (`9/26`) Logistics and introduction ([Slides](slides/1_logistics_and_course_introduction.pptx))
+  - (`9/24`) Logistics and introduction ([Slides](slides/1_logistics_and_course_introduction.pptx))
+  - (`9/26`) Java and OO fundamentals ([Slides](slides/2_oo_background.pptx))
 - Week 1
-  - (`9/29`) Introduction to software engineering ([Slides](slides/1_logistics_and_course_introduction.pptx))
-  - (`10/1`) Java and OO fundamentals ([Slides](slides/3_object_oriented_fundamentals.pptx))
-  - (`10/3`) Java and OO fundamentals 
+  - (`9/29`, `10/1`, `10/3`) Java and OO fundamentals contd.
 - Week 2
-  - (`10/6`) Java and OO fundamentals contd., and Networking Fundamentals ([Slides](slides/2_networking_fundamentals.pptx))
+  - (`10/6`) Networking Fundamentals ([Slides](slides/3_networking_fundamentals.pptx))
   - (`10/8`) Networking Fundamentals contd. 
   - (`10/10`) Unit testing, mock testing, CI ([Slides](slides/4_unit_testing_mocking_frameworks_CI.pptx))
 - Week 3
