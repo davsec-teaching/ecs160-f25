@@ -18,11 +18,11 @@ You will use the **GitHub API** to gather data about popular repositories in dif
 
 ### Part A. Download Repository Data
 1. **Fetch data with the GitHub API**  
-   - Download the list of the **top 10 most popular repositories** in each of these languages:  
+   - Download the list of the top 10 most popular repositories in each of these languages:  
      - Java  
      - C / C++  
      - Rust  
-   - Also download the **list of all forks** for each repository.  
+   - Also download the list of all forks for each repository.  
 
 2. **Parse the results**  
    - Use the JSON responses to create class/struct objects:  
@@ -58,12 +58,12 @@ For the top 10 repositories in each language, compute:
 ### Part C. Clone and Inspect Repositories
 1. From the top-10 repositories, determine which ones actually contain **source code** (not just tutorials or documentation).  
 2. Clone the **most popular repository** for each language.  
-   - Verify that it’s a real codebase.  
+   - Verify that it’s a real codebase and not a tutorial repository. (Question: How should you do that?)
 
 
 ### Part D. Store Results
 - Save the repository details and computed stats into **Redis**.  
-- Use different **logical keyspaces** in Redis if needed for organization.
+- Use different logical keyspaces in Redis if needed for organization.
 
 
 
