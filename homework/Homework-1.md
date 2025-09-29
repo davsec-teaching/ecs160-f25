@@ -11,8 +11,6 @@ _Learning objectives:_
 
 _Total points: 10_
 
-_Problem Statement:_
-
 ## Task Overview
 You will use the **GitHub API** to gather data about popular repositories in different languages, analyze their activity, and store results in Redis.  
 
