@@ -9,7 +9,7 @@ _Learning objectives:_
 2. Testing: JUnit, continuous integration via Github Actions (extra credit).
 3. Tools and libraries: [for Java] Maven, adding dependencies to `pom.xml`, Gson for parsing JSON files, databases (NoSQL).
 
-_Total points: 20_
+_Total points: 10_
 
 _Problem Statement:_
 
