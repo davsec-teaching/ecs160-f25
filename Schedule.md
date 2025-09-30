@@ -9,35 +9,36 @@ make sure you are referring to the latest versions.
 - Week 1
   - (`9/24`) Logistics and introduction ([Slides](slides/1_logistics_and_course_introduction.pptx))
   - (`9/26`) Java and OO fundamentals ([Slides](slides/2_oo_background.pptx))
-- Week 1
-  - (`9/29`, `10/1`, `10/3`) Java and OO fundamentals contd.
 - Week 2
-  - (`10/6`) Networking Fundamentals ([Slides](slides/3_networking_fundamentals.pptx))
-  - (`10/8`) Networking Fundamentals contd. 
-  - (`10/10`) Unit testing, mock testing, CI ([Slides](slides/4_unit_testing_mocking_frameworks_CI.pptx))
+  - (`9/29`, `10/1`, `10/3`) Java and OO fundamentals contd. and Networking Fundamentals ([Slides](slides/3_networking_fundamentals.pptx))
+  - (`10/1`) GitHub API, JSON Parsing, and Redis Databases
+  - (`10/3`) GitHub API, JSON Parsing, and Redis Databases contd.
 - Week 3
-  - (`10/13`) Guest Lecture (TBA)
-  - (`10/15`) Unit testing, mock testing, CI contd.
-  - (`10/17`) Java annotations and reflections ([Slides](slides/5_annotations_and_reflection.pptx))
+  - (`10/6`) Unit testing, mock testing, CI ([Slides](slides/4_unit_testing_mocking_frameworks_CI.pptx))
+  - (`10/8`) Unit testing, mock testing, CI contd.
+  - (`10/10`) Java annotations and reflections ([Slides](slides/5_annotations_and_reflection.pptx))
 - Week 4
-  - (`10/20`) Java annotations and reflections contd. 
-  - (`10/22`, `10/24`) Software architecture ([Slides](slides/6_software_architecture.pptx))
+  - (`10/13`) Guest Lecture (TBA)
+  - (`10/15`) Java annotations and reflections contd.
+  - (`10/17`) Java annotations and reflections contd.
 - Week 5
-  - (`10/27`) Software architecture contd.
-  - (`10/29`, `10/31`) Spring Boot microservices ([Slides](slides/7_spring_boot.pptx))
+  - (`10/20`)  Software architecture ([Slides](slides/6_software_architecture.pptx))
+  - (`10/22`, `10/24`) Software architecture
 - Week 6
-  - (`11/3`) **In-class Midterm**
-  - (`11/5`) Design patterns ([Slides](slides/8_design_patterns.pptx)), 
-  - (`11/7`) Design patterns contd, 
+  - (`10/27`) Spring Boot microservices ([Slides](slides/7_spring_boot.pptx))
+  - (`10/29`, `10/31`) Design patterns ([Slides](slides/8_design_patterns.pptx))
 - Week 7
-  - (`11/10`, `11/12`, `11/14`) Design patterns contd.
+  - (`11/3`) **In-class Midterm**
+  - (`11/5`) Design patterns contd, 
+  - (`11/7`) Design patterns contd., 
 - Week 8
-  - (`11/17`, `11/19`) Design patterns contd.
-  - (`11/21`) Software security ([Slides](slides/9_software_security.pptx)) 
+  - (`11/10`, `11/12`, `11/14`) Software security ([Slides](slides/9_software_security.pptx))
 - Week 9
-  - (`11/24`, `11/26`) Software security contd.
+  - (`11/17`, `11/19`, `11/21`) Software security and memory-safe languages
+- Week 10
+  - (`11/24`, `11/26`) Fuzz testing ([Slides](slides/10_fuzzing.pptx))
   - (`11/28`) Holiday (no class)
 - Week 10
-  - (`12/1`, `12/3`) Fuzz testing ([Slides](slides/10_fuzzing.pptx))
+  - (`12/1`, `12/3`) Fuzz testing and sanitizers contd.
   - (`12/5`) Revision ([Sample questions](slides/Sample_final_questions.pptx), [Review](slides/Review.pptx)))
 - (`12/9`) **Final**,
