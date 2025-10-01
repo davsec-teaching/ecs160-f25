@@ -20,8 +20,8 @@ The course has a formal prerequisite of ECS 140A, in addition to what is describ
 | **Lectures**        | MWF 12:10 PM - 1:00 PM in Veihmeyer Hall 212              |
 | **Discussion**      | W 10 AM - 10:50 AM in Chem 179                         |
 | **Piazza**     | https://piazza.com/ucdavis/fall2025/ecs160f25/home               |
-| **Instructor Office Hours**    | TBD                   |
-| **TA Office Hours** | TBD |
+| **Instructor Office Hours**    | W 2 - 4 PM  Academic Surge 2087                |
+| **TA Office Hours** | TuTh 10 - 11 AM Kemper 55 |
 
 ### Schedule
 
