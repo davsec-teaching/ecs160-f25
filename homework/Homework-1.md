@@ -90,6 +90,7 @@ For the top 10 repositories in each language, compute:
 1. From the top-10 repositories, determine which ones actually contain **source code** (not just tutorials or documentation).  
 2. Clone the **most popular repository** for each language.  
    - Verify that it’s a real codebase and not a tutorial repository. (Question: How should you do that?)
+   - Feel free to clone with `--depth 1` to only pull the latest commit.
 
 
 ### Part D. Store Results
