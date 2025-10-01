@@ -3,18 +3,23 @@
 ## _(Due date: TBD)_
 ## Problem 1: Getting Started with the GitHub API  
 
-This assignment can be completed in either Java, C++, or Rust. You're welcome to use any libraries or crates that will help you with your job, but for Java, you can't use any reflection or annotations-based API. If you find yourself applying an annotation to a class or field, or ever specify `[Classname].class` as an argument to a method---you can't use it. 
+### Preliminaries
+1. This assignment can be completed in either Java, C++, or Rust.
+2. You're welcome to use any libraries or crates that will help you with your job, but for Java, you can't use any reflection or annotations-based API. Basically, if you find yourself doing something like applying `@[annotation_name` to a class or field, or ever specify `[Classname].class` as an argument to a method---you can't use it. 
 
-_Learning objectives:_ 
+### Learning objectives
 1. Java basics: Encapsulation, Inheritance, File I/O, Exceptions.
 2. Testing: JUnit, continuous integration via Github Actions (extra credit).
 3. Tools and libraries: [for Java] Maven, adding dependencies to `pom.xml`, Gson for parsing JSON files, databases (NoSQL).
 
-_Total points: 10_
+### Total points: 10
 
 ## Task Overview
-You will use the **GitHub API** to gather data about popular repositories in different languages, analyze their activity, and store results in Redis.  
 
+We will use the **GitHub API** to gather data about popular repositories in different languages, analyze their activity, and store results in Redis. 
+We will use the number of stars to determine the popularity of repositories. To determine how active each repository is, we will use how many times
+the repository was forked, and how many _new_ commits were made to the forked repository. We will store these details in a way that is easily retrievable
+in Redis. The future assignments will directly use the data stored in Redis, instead of making the GitHub API calls again. 
 
 
 ### Part A. Download Repository Data
@@ -23,13 +28,37 @@ You will use the **GitHub API** to gather data about popular repositories in dif
      - Java  
      - C / C++  
      - Rust  
-   - Also download the list of all forks for each repository.  
-
+   - Also download the list of all forks for each repository, and the recent commits to these forked repositories.
+   - Helpful URLs to get started
+        1. GitHub REST API - https://docs.github.com/en/rest?apiVersion=2022-11-28
+        2. Search API - https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#search-repositories
+        
 2. **Parse the results**  
    - Use the JSON responses to create class/struct objects:  
-     - **Repo**  
-     - **Author**  
-     - **Issue**  
+     - **Repo**. Some suggested fields are---
+       1. name
+       2. ownerLogin
+       3. htmlUrl
+       4. forksCount
+       5. language
+       6. openIssuesCount
+       7. List<Repo> forks; // List to hold forked repositories
+       8. List<Commit> recentCommits; // List to hold commits
+       9. List<Issue> issues; // List to hold issues
+       10. commitCount; // To hold the number of commits
+
+     - **Owner**
+        1. login
+        2. id
+        3. htmlUrl
+        4. site_admin
+     - **Issue**
+        1. title
+        2. body
+        3. state
+        4. createdAt
+        5. updatedAt
+   - You're welcome to store more fields or fewer, as long as you can still compute the statistics mentioned below.
 
 
 ### Part B. Compute Statistics
@@ -40,7 +69,7 @@ For the top 10 repositories in each language, compute:
    - Total forks across the top 10 repos.  
    - Last 50 (or fewer) commits:  
      - Which files were modified?  
-     - Identify the *most modified files*.  
+     - Identify the Top-3 *most modified files*.  
    - Number of **new commits** in forked repos.  
    - Total open issues in the top 10 repos.  
 
