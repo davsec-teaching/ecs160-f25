@@ -10,7 +10,7 @@ make sure you are referring to the latest versions.
   - (`9/24`) Logistics and introduction ([Slides](slides/1_logistics_and_course_introduction.pptx))
   - (`9/26`) Java and OO fundamentals ([Slides](slides/2_oo_background.pptx))
 - Week 2
-  - (`9/29`, `10/1`, `10/3`) Java and OO fundamentals contd. and Networking Fundamentals ([Slides](slides/3_networking_fundamentals.pptx))
+  - (`9/29`) Java and OO fundamentals contd. and Networking Fundamentals ([Slides](slides/3_networking_fundamentals.pptx))
   - (`10/1`) GitHub API, JSON Parsing, and Redis Databases ([Slides](slides/github_api_and_json.pptx)) ([Slides](slides/Discussion1_Redis.pptx))
   - (`10/3`) GitHub API, JSON Parsing, and Redis Databases contd.
 - Week 3
