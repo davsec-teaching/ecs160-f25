@@ -2,7 +2,7 @@
 ## _(Due date: TBD)_
 ## Problem 1: Getting Started with the GitHub API  
 
-This assignment can be completed in either Java, C++, or Rust. You're welcome to use any libraries or crates that will help you with your job, but for Java, you can't use any libraries that use annotations.
+This assignment can be completed in either Java, C++, or Rust. You're welcome to use any libraries or crates that will help you with your job, but for Java, you can't use any annotations-based API. 
 
 _Learning objectives:_ 
 1. Java basics: Encapsulation, Inheritance, File I/O, Exceptions.
@@ -71,7 +71,7 @@ For the top 10 repositories in each language, compute:
 ---
 
 ### Suggested Libraries for Java
-- Gson for Json parsing
+- Gson for Json parsing (as long as you don't use the annotations-based approach)
 - Apache HttpComponents for sending and receiving HTTP requests and responses
 - JGit for cloning Git repos from Java
 
