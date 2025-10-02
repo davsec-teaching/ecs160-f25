@@ -12,6 +12,7 @@ make sure you are referring to the latest versions.
 - Week 2
   - (`9/29`) Java and OO fundamentals contd. and Networking Fundamentals ([Slides](slides/3_networking_fundamentals.pptx))
   - (`10/1`) GitHub API, JSON Parsing, and Redis Databases ([Slides](slides/github_api_and_json.pptx)) ([Slides](slides/Discussion1_Redis.pptx))
+  - (`10/1`) Discussion 1: Java Basics ([Slides](https://github.com/davsec-teaching/ecs160-f25/blob/main/slides/ECS160-f25_discussion1.pdf))
   - (`10/3`) GitHub API, JSON Parsing, and Redis Databases contd.
 - Week 3
   - (`10/6`) Unit testing, mock testing, CI ([Slides](slides/4_unit_testing_mocking_frameworks_CI.pptx))
