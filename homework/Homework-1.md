@@ -5,7 +5,10 @@
 
 ### Preliminaries
 1. This assignment can be completed in either Java, C++, or Rust.
-2. You're welcome to use any libraries or crates that will help you with your job, but for Java, you can't use any reflection or annotations-based API. Basically, if you find yourself doing something like applying `@[annotation_name` to a class or field, or ever specify `[Classname].class` as an argument to a method---you can't use it. 
+2. You're welcome to use any libraries or crates that will help you with your job, but for Java, you can't use any reflection or annotations-based API. Basically, if you find yourself doing something like applying `@[annotation_name` to a class or field, or ever specify `[Classname].class` as an argument to a method---you can't use it.
+3. Clone the repository here to get started: https://github.com/davsec-teaching/F25_HW1_handout (Do **NOT** fork. It won't allow you to create private forks)
+4. If using Java, we will use JDK 24 for the assignment, and the project must execute successfully using `mvn exec:java` from the command line.
+5. If using Rust, we will use the latest rustc compiler, and the project must execute successfully using `cargo run` from the command line. 
 
 ### Learning objectives
 1. Java basics: Encapsulation, Inheritance, File I/O, Exceptions.
