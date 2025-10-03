@@ -97,7 +97,7 @@ For the top 10 repositories in each language, compute:
 
 
 ### Part D. Store Results
-- Save the repository details and computed stats into **Redis**.
+- Save the repository details in **Redis**.
 - Redis is a key-value store, so it can save data of different types.
 - Here are some `redis-cli` command line examples. In the homework, we will use a Java library such as Jedis. For example, a repo with name `r1` and owner `u1` can be stored as follows
   1. `redis-cli hset reponame:r1 url "https://github.com/repos/r1" commitCount 100 owner "owner:u1"`
