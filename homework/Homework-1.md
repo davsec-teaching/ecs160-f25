@@ -74,7 +74,7 @@ For the top 10 repositories in each language, compute:
    - Last 50 (or fewer) commits:  
      - Which files were modified?  
      - Identify the Top-3 *most modified files*.  
-   - Number of **new commits** in forked repos (you can ignore any recursive forks).
+   - Number of **new commits** in the 20 most-recent forked repos (you can ignore any recursive forks).
    - Total open issues in the top 10 repos.  
 
 2. **Display Results**  
