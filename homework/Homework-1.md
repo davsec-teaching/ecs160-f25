@@ -74,7 +74,7 @@ For the top 10 repositories in each language, compute:
    - Last 50 (or fewer) commits:  
      - Which files were modified?  
      - Identify the Top-3 *most modified files*.  
-   - Number of **new commits** in forked repos (you can ignore any recursive forks).
+   - Number of **new commits** in the 20 most-recent forked repos (you can ignore any recursive forks).
    - Total open issues in the top 10 repos.  
 
 2. **Display Results**  
@@ -97,7 +97,7 @@ For the top 10 repositories in each language, compute:
 
 
 ### Part D. Store Results
-- Save the repository details and computed stats into **Redis**.
+- Save the repository details in **Redis**.
 - Redis is a key-value store, so it can save data of different types.
 - Here are some `redis-cli` command line examples. In the homework, we will use a Java library such as Jedis. For example, a repo with name `r1` and owner `u1` can be stored as follows
   1. `redis-cli hset reponame:r1 url "https://github.com/repos/r1" commitCount 100 owner "owner:u1"`
