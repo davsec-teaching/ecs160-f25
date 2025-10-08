@@ -17,6 +17,7 @@ make sure you are referring to the latest versions.
 - Week 3
   - (`10/6`) Unit testing, mock testing, CI ([Slides](slides/4_unit_testing_mocking_frameworks_CI.pptx))
   - (`10/8`) Unit testing, mock testing, CI contd.
+  - (`10/8`) Discussion 2: Maven Demo ([Slides](https://github.com/davsec-teaching/ecs160-f25/blob/main/slides/ECS160-f25_discussion2.pdf))
   - (`10/10`) Java annotations and reflections ([Slides](slides/5_annotations_and_reflection.pptx))
 - Week 4
   - (`10/13`) Guest Lecture (TBA)
