@@ -82,9 +82,11 @@ For the top 10 repositories in each language, compute:
    - **Language:** [lang name]  
    - **Total stars:** [star count]  
    - **Total forks:** [fork count]  
-   - **Most modified file per repo:**  
+   - **Top-3 Most modified file per repo (as computed above):**  
      - Repo name: [repo name]  
-     - File name: [file name]  
+     - File name1: [file name]  
+     - File name2: [file name]
+     - File name3: [file name]
    - **New commits in forked repos:** [count]  
    - **Open issues in top-10 repos:** [count]  
 

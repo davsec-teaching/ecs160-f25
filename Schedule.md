@@ -20,7 +20,7 @@ make sure you are referring to the latest versions.
   - (`10/8`) Discussion 2: Maven Demo ([Slides](https://github.com/davsec-teaching/ecs160-f25/blob/main/slides/ECS160-f25_discussion2.pdf))
   - (`10/10`) Java annotations and reflections ([Slides](slides/5_annotations_and_reflection.pptx))
 - Week 4
-  - (`10/13`) Guest Lecture (TBA)
+  - (`10/13`) Discussion 3: Unit Testing + CI/CD ([Slides](https://github.com/davsec-teaching/ecs160-f25/blob/main/slides/ECS160-f25_discussion3.pdf))
   - (`10/15`) Java annotations and reflections contd.
   - (`10/17`) Java annotations and reflections contd.
 - Week 5
