@@ -92,10 +92,11 @@ For the top 10 repositories in each language, compute:
 
 
 ### Part C. Clone and Inspect Repositories
-1. From the top-10 repositories, determine which ones actually contain **source code** (not just tutorials or documentation).  
-2. Clone the **most popular repository** for each language.  
-   - Verify that it’s a real codebase and not a tutorial repository. (Question: How should you do that?)
+1. From the top-10 repositories, programmatically determine which ones actually contain **source code** (not just tutorials or documentation).  
+2. Clone the **most popular repository, that is not a tutorial** for each language.  
+   - Verify that it’s a real codebase and not a tutorial repository. (You can use a heuristic on a subset of files in the repository for this purpose.)
    - Feel free to clone with `--depth 1` to only pull the latest commit.
+   - It's okay if ended up cloning a bunch of tutorial repos to determine if a repo is a tutorial or not, but that's not strictly necessary.
 
 
 ### Part D. Store Results
