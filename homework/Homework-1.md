@@ -120,6 +120,14 @@ For the top 10 repositories in each language, compute:
 
 ---
 
+## Submission
+ - Make sure you don't have any private keys hardcoded in the code. You will lose points if we find that!
+ - Please add a `README.md` file to your repository that explicitly specifies any assumptions you have made, beyond what the assignment already specifies. This README.md should also explain how to set up the GITHUB API key.
+ - Make sure your solution runs if we execute the command mvn install && mvn exec:java`. (We will have Redis server running already)
+ - Zip the contents of your repository. Do NOT include the repository/s you cloned as part of this homework.
+ - Submit on Canvas.
+---
+
 ### Additional hints
 #### Suggested Libraries for Java
 - Gson for Json parsing (as long as you don't use the reflection or annotations-based approach)
