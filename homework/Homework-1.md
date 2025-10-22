@@ -92,9 +92,9 @@ For the top 10 repositories in each language, compute:
 
 
 ### Part C. Clone and Inspect Repositories
-1. From the top-10 repositories, determine which ones actually contain **source code** (not just tutorials or documentation).  
-2. Clone the **most popular repository** for each language.  
-   - Verify that it’s a real codebase and not a tutorial repository. (Question: How should you do that?)
+1. From the top-10 repositories, programmatically determine which ones actually contain **source code** (not just tutorials or documentation).
+   - Hint: You can use a heuristic on a subset of files in the repository for this purpose.
+3. Clone the **most popular repository, that is not a tutorial** for each language.  
    - Feel free to clone with `--depth 1` to only pull the latest commit.
 
 
@@ -118,6 +118,14 @@ For the top 10 repositories in each language, compute:
 - Set up a GitHub Action to automatically run the unit tests on every push to the repo.
   1. GitHub Actions: https://docs.github.com/en/actions/get-started/quickstart
 
+---
+
+## Submission
+ - Make sure you don't have any private keys hardcoded in the code. You will lose points if we find that!
+ - Please add a `README.md` file to your repository that explicitly specifies any assumptions you have made, beyond what the assignment already specifies. This README.md should also explain how to set up the GITHUB API key.
+ - Make sure your solution runs if we execute the command mvn install && mvn exec:java`. (We will have Redis server running already)
+ - Zip the contents of your repository. Do NOT include the repository/s you cloned as part of this homework.
+ - Submit on Canvas.
 ---
 
 ### Additional hints
