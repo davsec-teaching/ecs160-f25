@@ -46,10 +46,10 @@ These components are described below.
 2. Microservice A: Provides an `@Endpoint(url = "summarize_issue")` that accepts a JSON of a Github issue (see Part D) and returns an Issue summary in the JSON format specified below.
 3. Microservice B: Provides an `@Endpoint(url = "find_bugs")` that accepts C file contents and returns a list of Json Issues.
 4. Microservice C: Provides an `@Endpoint(url = "check_equivalence")` that accepts a list of two lists of Issues in Json format and returns a Json list of Issues that are common in both.
-5. Please use the Ollama framework to interface with the LLM models.
-6. Please use Ollama's deepcoder:1.5b model
-7. Feel free to support only GET requests
-8. Feel free to use the Apache HTTP Core library.
+5. You must use the Ollama framework to interface with the LLM models.
+6. You must use Ollama's deepcoder:1.5b model
+7. Feel free to support only GET requests.
+8. Feel free to use the Apache HTTP Core library or any other library.
 9. The Issue format in Json: 
    ```json
    {
