@@ -18,6 +18,22 @@ These components are described below.
 
 ---
 
+## Part 0. Updating HW1 if necessary
+1. Make sure your Redis database has atleast the `Repo` and `Issue` objects stored in them.
+2. A `Repo` record should have a comma-separated value that concatenates all the `Issue` ids. 
+   Something like this: 
+   ```
+   ----------------------------------------------------------------------------------------------------------------------------------------------------
+   |repo-101 || Url | https://github.com/octocat/ | CreatedAt | 2020-11-11 | Author Name | Person A | Issues | iss-101,iss-102,iss-110,iss-112,iss-109 |
+   ----------------------------------------------------------------------------------------------------------------------------------------------------
+   ```
+   Then, the Issue itself should also be stored in redis (potentially in a different logical database)
+   ```
+   -----------------------------------------------------------
+   |iss-101 || Date | 2025-12-12 | Description | Page crashes|
+   ----------------------------------------------------------
+   ```
+   
 ## Part A. Redis Persistence Framework
 1. The framework must be implemented as an independent Java library.
 2. The library should provide the following annotations
