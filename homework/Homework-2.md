@@ -1,5 +1,5 @@
 # ECS160-HW2
-## Start Date: 10/24/2025; Due Date: 11/21/2025
+## Start Date: 10/24/2025; Due Date: 11/24/2025
 
 ## Problem: LLMs for Bug Detection
 
