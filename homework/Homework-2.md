@@ -33,6 +33,9 @@ These components are described below.
    |iss-101 || Date | 2025-12-12 | Description | Page crashes|
    ----------------------------------------------------------
    ```
+3. Rerun Hw1 to make sure the entries are persisted in this format.
+4. **You should not make any GitHub API calls in this HW.**
+
    
 ## Part A. Redis Persistence Framework
 1. The framework must be implemented as an independent Java library.
@@ -59,10 +62,10 @@ These components are described below.
 ## Part C. Using the Microservice Framework
 
 1. Design THREE Java projects and import the Microservice framework in each of them. These three projects will implement the three microservices mentioned earlier, using the Microservice framework designed in Part B.
-2. Microservice A: Provides an `@Endpoint(url = "summarize_issue")` that accepts a JSON of a Github issue (see Part D) and returns an Issue summary in the JSON format specified below.
-3. Microservice B: Provides an `@Endpoint(url = "find_bugs")` that accepts C file contents and returns a list of Json Issues.
-4. Microservice C: Provides an `@Endpoint(url = "check_equivalence")` that accepts a list of two lists of Issues in Json format and returns a Json list of Issues that are common in both.
-5. You must use the Ollama framework to interface with the LLM models.
+2. Microservice A (_Issue Summarizer_): Provides an `@Endpoint(url = "summarize_issue")` that accepts a JSON of a Github issue (see Part D) and returns an Issue summary in the JSON format specified below.
+3. Microservice B (_Bug Finder_): Provides an `@Endpoint(url = "find_bugs")` that accepts C file contents and returns a list of Json Issues.
+4. Microservice C (_Issue Summary Comparator_): Provides an `@Endpoint(url = "check_equivalence")` that accepts a list of two lists of Issues in Json format and returns a Json list of Issues that are common in both.
+5. You must use the Ollama framework to interface with the LLM models. Feel free to use any Java library that can interface with Ollama.
 6. You must use Ollama's deepcoder:1.5b model
 7. Feel free to support only GET requests.
 8. Feel free to use the Apache HTTP Core library or any other library.
@@ -86,7 +89,12 @@ These components are described below.
 6. In `README.md` discuss the results.
 
 ## Part E. Testing
-- Provide automatic tests.  
-- Use mock testing where possible (e.g., mock LLM responses).  
+1. Provide automatic tests.  
+2. Use mock testing where possible (e.g., mock LLM responses).
 
+## Important Points
+1. You **cannot** use any existing Java library that provides annotation-based persistence.
+2. You **cannot** use any existing Java library that provides annotation-based microservices.
+3. You can use annotation-based libraries for any other purposes.
+4. If in doubt, please post on Piazza to check if the library you want to use is allowed or not.
 
