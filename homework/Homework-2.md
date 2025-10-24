@@ -48,6 +48,7 @@ These components are described below.
    - The `persist` method should persist all fields annotated with the `@Persistable` annotation in the database.
    - The `load` method should accept an Object `o` with a field annotated with `@Id` populated, and load that object from the Redis databse
    - [EC] For the `load` method, if a field is marked as lazy-loaded, it should be lazy loaded.
+4. Build and install the persistence framework to your local Maven repository using the correct `mvn` command.
 
 ## Part B. Microservice Framework
 
@@ -58,6 +59,7 @@ These components are described below.
      - The method signature should be `String handleRequest(String input)`, where it accepts `input` as the argument, processes it and returns a `String`.
 3. The library must support a method `bool launch(int port)` that launches the annotated microservices to listen at the specified port.
    - This function should run an infinite loop, inspecting each incoming request, mapping it to the right microservice and invoking it, collecting the response, and sending it back to the client.
+4. Build and install the persistence framework to your local Maven repository using the correct `mvn` command.
 
 ## Part C. Using the Microservice Framework
 
@@ -97,4 +99,7 @@ These components are described below.
 2. You **cannot** use any existing Java library that provides annotation-based microservices.
 3. You can use annotation-based libraries for any other purposes.
 4. If in doubt, please post on Piazza to check if the library you want to use is allowed or not.
+
+## Handout code and script
+HW2 startup code and script will be provided by 10/27. All projects must run using the provided script.
 
