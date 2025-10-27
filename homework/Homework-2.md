@@ -106,6 +106,7 @@ These components are described below.
 2. All submissions **must** follow the top-level hierarchy of organizing the different components.
 3. Note that only a handful of classes and annotations have been created in the skeleton. Please feel free to add more classes as needed.
 4. Do **NOT** fork the repo. Instead clone it and then update the remote origin.
+5. Running `./script.sh` should compile and run all the projects correctly.
 
 ### Sample code
 1. Redis-based logging framework using Java annotations, reflections, and dynamic proxy is [here](https://github.com/davsec-teaching/proxy-logging-full-demo). This is basically an expanded version of the logging example we worked through in class.
