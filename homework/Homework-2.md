@@ -101,8 +101,11 @@ These components are described below.
 3. You can use annotation-based libraries for any other purposes.
 4. If in doubt, please post on Piazza to check if the library you want to use is allowed or not.
 
-### Handout code and script
+### Skeleton code and script
 1. HW2 skeleton code is [here](https://github.com/davsec-teaching/f25-hw2-skeleton-code).
 2. All submissions **must** follow the top-level hierarchy of organizing the different components.
 3. Note that only a handful of classes and annotations have been created in the skeleton. Please feel free to add more classes as needed.
 4. Do **NOT** fork the repo. Instead clone it and then update the remote origin.
+
+### Sample code
+1. Redis-based logging framework using Java annotations, reflections, and dynamic proxy is [here](https://github.com/davsec-teaching/proxy-logging-full-demo). This is basically an expanded version of the logging example we worked through in class.
