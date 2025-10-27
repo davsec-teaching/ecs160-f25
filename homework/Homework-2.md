@@ -60,7 +60,7 @@ These components are described below.
      - The method signature should be `String handleRequest(String input)`, where it accepts `input` as the argument, processes it and returns a `String`.
 3. The library must support a method `bool launch(int port)` that launches the annotated microservices to listen at the specified port.
    - This function should run an infinite loop, inspecting each incoming request, mapping it to the right microservice and invoking it, collecting the response, and sending it back to the client.
-4. Build and install the persistence framework to your local Maven repository using the correct `mvn` command.
+4. Build and install the microservice framework to your local Maven repository using the correct `mvn` command.
 
 ## Part C. Using the Microservice Framework
 
