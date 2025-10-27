@@ -33,8 +33,9 @@ These components are described below.
    |iss-101 || Date | 2025-12-12 | Description | Page crashes|
    ----------------------------------------------------------
    ```
-3. Rerun Hw1 to make sure the entries are persisted in this format.
-4. **You should not make any GitHub API calls in this HW.**
+3. **Important:** Make sure that the Repo records at least have `Url` and `Issues` fields and Issue records have a `Description` field.
+4. Rerun Hw1 to make sure the entries are persisted in this format.
+5. **You should not make any GitHub API calls in this HW.**
 
    
 ## Part A. Redis Persistence Framework
