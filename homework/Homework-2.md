@@ -64,7 +64,7 @@ These components are described below.
 
 ## Part C. Using the Microservice Framework
 
-1. Design ONE Java projects and import the Microservice framework in each of them. This will implement the three microservices mentioned earlier, using the Microservice framework designed in Part B.
+1. Design ONE Java projects and import the Microservice framework in it. This will implement the three microservices mentioned earlier, using the Microservice framework designed in Part B.
 2. Microservice A (_Issue Summarizer_): Provides an `@Endpoint(url = "summarize_issue")` that accepts a JSON of a Github issue (see Part D) and returns an Issue summary in the JSON format specified below.
 3. Microservice B (_Bug Finder_): Provides an `@Endpoint(url = "find_bugs")` that accepts C file contents and returns a list of Json Issues.
 4. Microservice C (_Issue Summary Comparator_): Provides an `@Endpoint(url = "check_equivalence")` that accepts a list of two lists of Issues in Json format and returns a Json list of Issues that are common in both.
