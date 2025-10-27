@@ -38,7 +38,7 @@ These components are described below.
 5. **You should not make any GitHub API calls in this HW.**
 
    
-### Part A. Redis Persistence Framework
+### Part A. Redis Persistence Framework 
 1. The framework must be implemented as an independent Java library.
 2. The library should provide the following annotations
    - `@PersistableObject`: a class-level annotation that indicates that the class can be saved in Redis.
@@ -83,7 +83,7 @@ These components are described below.
 10. Launch the three microservices. 
 
 
-### Part D. Java Application 
+### Part D. Java Application
 1. Load the repos and issues from the Redis database that you created in HW1, using the Part A persistence framework. 
 2. Find the C repo with most issues, which is not the Linux kernel, and clone it (feel free to use the `git` binary, via the `ProcessBuilder`, or any other library).
 3. Load the issues in that repo, invoke Microservice A to summarize them. Let's call this `IssueList1`.
@@ -110,3 +110,10 @@ These components are described below.
 
 ### Sample code
 1. Redis-based logging framework using Java annotations, reflections, and dynamic proxy is [here](https://github.com/davsec-teaching/proxy-logging-full-demo). This is basically an expanded version of the logging example we worked through in class.
+
+### Grading Rubric
+1. Persistence Framework - 7 points (+5 points EC)
+2. Microservice Framework - 7 points
+3. Microservices - 5 points
+4. Main app - 4 points
+5. Unit tests - 2 points
