@@ -9,7 +9,7 @@ _Learning objectives:_
 
 _**(Total points: 25 (+5 extra credit for Lazy Loading)**_
 
-## Objective
+### Objective
 Validate whether an LLM can detect bugs in code by cross-referencing its findings with real GitHub issue reports. You will build reflection-based microservice and Redis persistence frameworks to answer the above question.
 
 The persistence framework will be used load Repos and their associated Issues from the Redis database. The microservice framework will be used to develop three microservices---(i) an LLM-based _Issue Summarizer_, (ii) an LLM-based _Bug Finder_, and (iii) an LLM-based _Issue Summary Comparator_.
@@ -18,7 +18,7 @@ These components are described below.
 
 ---
 
-## Part 0. Updating HW1 if necessary
+### Part 0. Updating HW1 if necessary
 1. Make sure your Redis database has atleast the `Repo` and `Issue` objects stored in them.
 2. A `Repo` record should have a comma-separated value that concatenates all the `Issue` ids. 
    Something like this: 
@@ -38,7 +38,7 @@ These components are described below.
 5. **You should not make any GitHub API calls in this HW.**
 
    
-## Part A. Redis Persistence Framework
+### Part A. Redis Persistence Framework
 1. The framework must be implemented as an independent Java library.
 2. The library should provide the following annotations
    - `@PersistableObject`: a class-level annotation that indicates that the class can be saved in Redis.
@@ -51,7 +51,7 @@ These components are described below.
    - [EC] For the `load` method, if a field is marked as lazy-loaded, it should be lazy loaded.
 4. Build and install the persistence framework to your local Maven repository using the correct `mvn` command.
 
-## Part B. Microservice Framework
+### Part B. Microservice Framework
 
 1. The library must be implemented as an independent Java library.
 2. The library must provide the following annotation
@@ -62,7 +62,7 @@ These components are described below.
    - This function should run an infinite loop, inspecting each incoming request, mapping it to the right microservice and invoking it, collecting the response, and sending it back to the client.
 4. Build and install the microservice framework to your local Maven repository using the correct `mvn` command.
 
-## Part C. Using the Microservice Framework
+### Part C. Using the Microservice Framework
 
 1. Design ONE Java projects and import the Microservice framework in it. This will implement the three microservices mentioned earlier, using the Microservice framework designed in Part B.
 2. Microservice A (_Issue Summarizer_): Provides an `@Endpoint(url = "summarize_issue")` that accepts a JSON of a Github issue (see Part D) and returns an Issue summary in the JSON format specified below.
@@ -83,7 +83,7 @@ These components are described below.
 10. Launch the three microservices. 
 
 
-## Part D. Java Application 
+### Part D. Java Application 
 1. Load the repos and issues from the Redis database that you created in HW1, using the Part A persistence framework. 
 2. Find the C repo with most issues, which is not the Linux kernel, and clone it (feel free to use the `git` binary, via the `ProcessBuilder`, or any other library).
 3. Load the issues in that repo, invoke Microservice A to summarize them. Let's call this `IssueList1`.
@@ -91,16 +91,18 @@ These components are described below.
 5. Send both `IssueList1` and `IssueList2` to Microservice C and print the set of issues that it says are common - that the LLM identified it from the source code AND it was mentioned in a GitHub Issue.
 6. In `README.md` discuss the results.
 
-## Part E. Testing
+### Part E. Testing
 1. Provide automatic tests.  
 2. Use mock testing where possible (e.g., mock LLM responses).
 
-## Important Points
+### Important Points
 1. You **cannot** use any existing Java library that provides annotation-based persistence.
 2. You **cannot** use any existing Java library that provides annotation-based microservices.
 3. You can use annotation-based libraries for any other purposes.
 4. If in doubt, please post on Piazza to check if the library you want to use is allowed or not.
 
-## Handout code and script
-HW2 startup code and script will be provided by 10/27. All projects must run using the provided script.
-
+### Handout code and script
+1. HW2 skeleton code is [here](https://github.com/davsec-teaching/f25-hw2-skeleton-code).
+2. All submissions **must** follow the top-level hierarchy of organizing the different components.
+3. Note that only a handful of classes and annotations have been created in the skeleton. Please feel free to add more classes as needed.
+4. Do **NOT** fork the repo. Instead clone it and then update the remote origin.
