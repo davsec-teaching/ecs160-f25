@@ -12,7 +12,7 @@
 
 ### Learning objectives
 1. Java basics: Encapsulation, Inheritance, File I/O, Exceptions.
-2. Testing: JUnit, continuous integration via Github Actions (extra credit).
+2. Testing: JUnit, continuous integration via Github Actions (1% extra credit for Github actions).
 3. Tools and libraries: [for Java] Maven, adding dependencies to `pom.xml`, Gson for parsing JSON files, databases (NoSQL).
 
 ### Total points: 10

@@ -25,6 +25,7 @@ make sure you are referring to the latest versions.
   - (`10/17`) Java annotations and reflections contd.
 - Week 5
   - (`10/20`)  Software architecture ([Slides](slides/6_software_architecture.pptx))
+  - (`10/22`) Discussion 4: Annotations and Reflections ([Slides](https://github.com/davsec-teaching/ecs160-f25/blob/main/slides/ECS160-f25_discussion4.pdf))
   - (`10/22`, `10/24`) Software architecture
 - Week 6
   - (`10/27`) Spring Boot microservices ([Slides](slides/7_spring_boot.pptx))
