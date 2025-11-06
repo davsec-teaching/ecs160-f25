@@ -29,9 +29,11 @@ make sure you are referring to the latest versions.
   - (`10/22`, `10/24`) Software architecture
 - Week 6
   - (`10/27`) Software architecture ([Slides](slides/7_spring_boot.pptx))
+  - (`10/29`) Discussion 5: Reflections ctd. ([Slides](https://github.com/davsec-teaching/ecs160-f25/blob/main/slides/ECS160-f25_discussion5.pdf))
   - (`10/29`, `10/31`) Spring Boot microservices 
 - Week 7
   - (`11/3`) **In-class Midterm**
+  - (`11/5`) Discussion 6: Microservices ([Slides](https://github.com/davsec-teaching/ecs160-f25/blob/main/slides/ECS160-f25_discussion6.pdf))
   - (`11/5, `11/7`) Software security ([Slides](slides/9_software_security.pptx)) 
 - Week 8
   - (`11/10`, `11/12`, `11/14`) Software security and memory-safe languages
