@@ -110,6 +110,7 @@ These components are described below.
 
 ### Sample code
 1. Redis-based logging framework using Java annotations, reflections, and dynamic proxy is [here](https://github.com/davsec-teaching/proxy-logging-full-demo). This is basically an expanded version of the logging example we worked through in class.
+2. Code to load all classes [here](https://gist.github.com/taptipalit/fef1576d9740344ac7e1d3460b25c52a)
 
 ### Grading Rubric
 1. Persistence Framework - 7 points (+5 points EC)
