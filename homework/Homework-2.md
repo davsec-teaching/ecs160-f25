@@ -84,10 +84,12 @@ These components are described below.
 
 
 ### Part D. Java Application
-1. Load the repos and issues from the Redis database that you created in HW1, using the Part A persistence framework. 
-2. Find the C repo with most issues, which is not the Linux kernel, and clone it (feel free to use the `git` binary, via the `ProcessBuilder`, or any other library).
-3. Load the issues in that repo, invoke Microservice A to summarize them. Let's call this `IssueList1`.
-4. Load each `.c` file in that repo and invoke Microservice B to get the list of bugs in it. Let's call this `IssueList2`.
+1. Among the repos stored in Redis, pick a C/C++ repo that you wish to analyze.
+2. Create a `selected_repo.dat` file and store the `repoId` of that repository in it. Also, manually enter a list of 3-4 files in the repository you wish to analyze.
+1. Load that repo and its corresponding issues from the Redis database that you created in HW1, using the Part A persistence framework. 
+2. Clone the repository (feel free to use the `git` binary, via the `ProcessBuilder`, or any other library).
+3. For the issues in that repo, invoke Microservice A to summarize them. Let's call this `IssueList1`.
+4. Load the `.c` files, specified in `selected_repo.dat`, in that repo and invoke Microservice B to get the list of bugs in it. Let's call this `IssueList2`.
 5. Send both `IssueList1` and `IssueList2` to Microservice C and print the set of issues that it says are common - that the LLM identified it from the source code AND it was mentioned in a GitHub Issue.
 6. In `README.md` discuss the results.
 
@@ -110,6 +112,7 @@ These components are described below.
 
 ### Sample code
 1. Redis-based logging framework using Java annotations, reflections, and dynamic proxy is [here](https://github.com/davsec-teaching/proxy-logging-full-demo). This is basically an expanded version of the logging example we worked through in class.
+2. Code to load all classes [here](https://gist.github.com/taptipalit/fef1576d9740344ac7e1d3460b25c52a)
 
 ### Grading Rubric
 1. Persistence Framework - 7 points (+5 points EC)
@@ -117,3 +120,10 @@ These components are described below.
 3. Microservices - 5 points
 4. Main app - 4 points
 5. Unit tests - 2 points
+
+### Submission
+1. Run `mvn clean` and delete the cloned repository
+2. Zip the homework directory.
+1. Make sure to include the redis `.db` file.
+2. Make sure to include the `selected_repo.dat` file.
+3. Submit on Canvas before the deadline.
