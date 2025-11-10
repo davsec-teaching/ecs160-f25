@@ -12,7 +12,7 @@ _**(Total points: 25 (+5 extra credit for Lazy Loading)**_
 ### Objective
 Validate whether an LLM can detect bugs in code by cross-referencing its findings with real GitHub issue reports. You will build reflection-based microservice and Redis persistence frameworks to answer the above question.
 
-The persistence framework will be used load Repos and their associated Issues from the Redis database. The microservice framework will be used to develop three microservices---(i) an LLM-based _Issue Summarizer_, (ii) an LLM-based _Bug Finder_, and (iii) an LLM-based _Issue Summary Comparator_.
+The persistence framework will be used load Repos and their associated Issues from the Redis database. The microservice framework will be used to develop three microservice endpoints---(i) an LLM-based _Issue Summarizer_, (ii) an LLM-based _Bug Finder_, and (iii) an LLM-based _Issue Summary Comparator_.
 
 These components are described below.
 
@@ -64,7 +64,7 @@ These components are described below.
 
 ### Part C. Using the Microservice Framework
 
-1. Design ONE Java projects and import the Microservice framework in it. This will implement the three microservices mentioned earlier, using the Microservice framework designed in Part B.
+1. Design ONE Java projects and import the Microservice framework in it. This will implement the three microservice endpoints mentioned earlier, using the Microservice framework designed in Part B.
 2. Microservice A (_Issue Summarizer_): Provides an `@Endpoint(url = "summarize_issue")` that accepts a JSON of a Github issue (see Part D) and returns an Issue summary in the JSON format specified below.
 3. Microservice B (_Bug Finder_): Provides an `@Endpoint(url = "find_bugs")` that accepts C file contents and returns a list of Json Issues.
 4. Microservice C (_Issue Summary Comparator_): Provides an `@Endpoint(url = "check_equivalence")` that accepts a list of two lists of Issues in Json format and returns a Json list of Issues that are common in both.
@@ -80,7 +80,7 @@ These components are described below.
      "description": "Possible null dereference when accessing 'user.profile'",
      "filename": "src/main/model/Record.java"
    }
-10. Launch the three microservices. 
+10. Launch the microservice. 
 
 
 ### Part D. Java Application
