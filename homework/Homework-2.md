@@ -48,6 +48,8 @@ These components are described below.
 3. The library should contain a class `RedisDB`, with methods `bool persist(Object o)` and `Object load(Object o)`. 
    - The `persist` method should persist all fields annotated with the `@Persistable` annotation in the database.
    - The `load` method should accept an Object `o` with a field annotated with `@Id` populated, and load that object from the Redis databse
+   - Both the `persist` and `load` methods should be able to handle child objects. For e.g., calling `persist` on a `Team` object should `persist` all of the `Player` objects in the team. Similarly, loading a `Team` object should load all the `Player` objects and populate them in the `Team` object.
+   - You can support only the `java.util.List` container when handling child objects.
    - [EC] For the `load` method, if a field is marked as lazy-loaded, it should be lazy loaded.
 4. Build and install the persistence framework to your local Maven repository using the correct `mvn` command.
 
