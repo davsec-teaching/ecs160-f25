@@ -93,7 +93,7 @@ These components are described below.
 3. For the issues in that repo, invoke Microservice A to summarize them. Let's call this `IssueList1`.
 4. Load the `.c` files, specified in `selected_repo.dat`, in that repo and invoke Microservice B to get the list of bugs in it. Let's call this `IssueList2`.
 5. Send both `IssueList1` and `IssueList2` to Microservice C and print the set of issues that it says are common - that the LLM identified it from the source code AND it was mentioned in a GitHub Issue.
-6. In `README.md` discuss the results.
+6. In `ANALYSIS.md` discuss the results. Note: You CAN NOT use LLMs to generate or edit the contents in `ANALYSIS.md`. If you choose to, you can also provide a `README.md` file with any instructions. You may use LLMs to generate the content for the `README.md` file because it won't be graded.
 
 ### Part E. Testing
 1. Provide automatic tests.  
@@ -117,15 +117,17 @@ These components are described below.
 2. Code to load all classes [here](https://gist.github.com/taptipalit/fef1576d9740344ac7e1d3460b25c52a)
 
 ### Grading Rubric
-1. Persistence Framework - 7 points (+5 points EC)
-2. Microservice Framework - 7 points
+1. Persistence Framework - 6 points (+5 points EC)
+2. Microservice Framework - 6 points
 3. Microservices - 5 points
 4. Main app - 4 points
 5. Unit tests - 2 points
+6. Analysis of results - 2 points
 
 ### Submission
 1. Run `mvn clean` and delete the cloned repository
 2. Zip the homework directory.
 1. Make sure to include the redis `.db` file.
 2. Make sure to include the `selected_repo.dat` file.
-3. Submit on Canvas before the deadline.
+3. Make sure to include the `ANALYSIS.md` file.
+4. Submit on Canvas before the deadline.
