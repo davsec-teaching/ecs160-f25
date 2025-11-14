@@ -93,7 +93,7 @@ These components are described below.
 3. For the issues in that repo, invoke Microservice A to summarize them. Let's call this `IssueList1`.
 4. Load the `.c` files, specified in `selected_repo.dat`, in that repo and invoke Microservice B to get the list of bugs in it. Let's call this `IssueList2`.
 5. Send both `IssueList1` and `IssueList2` to Microservice C and print the set of issues that it says are common - that the LLM identified it from the source code AND it was mentioned in a GitHub Issue.
-6. In `ANALYSIS.md` discuss the results. Note: You CAN NOT use LLMs to generate or edit the contents in `ANALYSIS.md`. If you choose to, you can also provide a `README.md` file with any instructions. You may use LLMs to generate the content for the `README.md` file because it won't be graded.
+6. In `ANALYSIS.md` discuss the results---in particular, try to answer the question: could the LLM detect any bug also reported as a GitHub issue? Note that there is no "correct" answer here. Also, note: You CAN NOT use LLMs to generate or edit the contents in `ANALYSIS.md`. If you choose to, you can also provide a `README.md` file with any instructions. You may use LLMs to generate the content for the `README.md` file because it won't be graded. 
 
 ### Part E. Testing
 1. Provide automatic tests.  
