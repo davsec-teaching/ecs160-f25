@@ -44,7 +44,7 @@ These components are described below.
    - `@PersistableObject`: a class-level annotation that indicates that the class can be saved in Redis.
    - `@PersistableField`: a field-level annotation that indicates that the field can be saved in Redis. Only the fields annotated with this annotation must be persisted.
    - `@Id`: a field-level annotation indicating which field is the Id field.
-   - [EC] `@LazyLoad(field="[FIELDNAME])`: a method-level annotation with a single argument that specifies which field is lazy loaded.
+   - [EC] `@LazyLoad(field="[FIELDNAME])`: a method-level annotation with a single argument that specifies which field is lazy loaded. Assume that a method can only have one lazy-loaded field.
 3. The library should contain a class `RedisDB`, with methods `bool persist(Object o)` and `Object load(Object o)`. 
    - The `persist` method should persist all fields annotated with the `@Persistable` annotation in the database.
    - The `load` method should accept an Object `o` with a field annotated with `@Id` populated, and load that object from the Redis databse
