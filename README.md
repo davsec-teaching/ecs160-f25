@@ -34,7 +34,7 @@ Lectures and discussions will be recorded.
 
 ### Grading
 
-Grading will be broken down as follows. Please note that the Canvas grades are typically not weighted, so please use the following weightage when computing your grade. 
+Grading will be broken down as follows. When checking the grades on Canvas, please make sure that they are weighted. You can also use the following weightage when computing your grade. 
 
 | **Grading component**          | **Weightage**                                                                 |
 |----------------------|---------------------------------------------------------------------------------|
