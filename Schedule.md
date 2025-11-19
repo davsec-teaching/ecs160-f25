@@ -37,8 +37,10 @@ make sure you are referring to the latest versions.
   - (`11/5, `11/7`) Software security ([Slides](slides/9_software_security.pptx)) 
 - Week 8
   - (`11/10`, `11/12`, `11/14`) Software security and memory-safe languages
+  - (`11/12`) Discussion 7: Memory & Attacks ([Slides](https://github.com/davsec-teaching/ecs160-f25/blob/main/slides/ECS160-f25_discussion7.pdf))
 - Week 9
   - (`11/17`) Fuzz testing ([Slides](slides/10_fuzzing.pptx))
+  - (`11/19`) Discussion 8: Memory ctd. ([Slides](https://github.com/davsec-teaching/ecs160-f25/blob/main/slides/ECS160-f25_discussion8.pdf))
   - (`11/19`, `11/21`) Design patterns ([Slides](slides/8_design_patterns.pptx))
 - Week 10
   - (`11/24`, `11/26`) Design patterns
