@@ -96,7 +96,7 @@ These components are described below.
 6. In `ANALYSIS.md` discuss the results---in particular, try to answer the question: could the LLM detect any bug also reported as a GitHub issue? Note that there is no "correct" answer here. Also, note: You CAN NOT use LLMs to generate or edit the contents in `ANALYSIS.md`. If you choose to, you can also provide a `README.md` file with any instructions. You may use LLMs to generate the content for the `README.md` file because it won't be graded. 
 
 ### Part E. Testing
-1. Provide automatic tests.  
+1. Provide Junit tests.  
 2. Use mock testing where possible (e.g., mock LLM responses).
 
 ### Important Points
