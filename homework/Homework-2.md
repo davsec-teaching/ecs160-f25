@@ -102,8 +102,8 @@ These components are described below.
 ### Important Points
 1. You **cannot** use any existing Java library that provides annotation-based persistence.
 2. You **cannot** use any existing Java library that provides annotation-based microservices.
-3. You can use annotation-based libraries for any other purposes.
-4. If in doubt, please post on Piazza to check if the library you want to use is allowed or not.
+4. You can use annotation-based libraries for any other purposes, including parsing JSON strings to objects (if needed).
+5. If in doubt, please post on Piazza to check if the library you want to use is allowed or not.
 
 ### Skeleton code and script
 1. HW2 skeleton code is [here](https://github.com/davsec-teaching/f25-hw2-skeleton-code).
