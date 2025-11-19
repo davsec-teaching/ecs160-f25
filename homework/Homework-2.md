@@ -62,6 +62,7 @@ These components are described below.
      - The method signature should be `String handleRequest(String input)`, where it accepts `input` as the argument, processes it and returns a `String`.
 3. The library must support a method `bool launch(int port)` that launches the annotated microservices to listen at the specified port.
    - This function should run an infinite loop, inspecting each incoming request, mapping it to the right microservice and invoking it, collecting the response, and sending it back to the client.
+4. Feel free to use the Apache HTTP Core library or any other library. You should figure out how to set up the server and how to have it handle the different endpoint urls.
 4. Build and install the microservice framework to your local Maven repository using the correct `mvn` command.
 
 ### Part C. Using the Microservice Framework
@@ -73,7 +74,6 @@ These components are described below.
 5. You must use the Ollama framework to interface with the LLM models. Feel free to use any Java library that can interface with Ollama.
 6. You must use Ollama's deepcoder:1.5b model
 7. Feel free to support only GET requests.
-8. Feel free to use the Apache HTTP Core library or any other library. You should figure out how to set up the server and how to have it handle the different endpoint urls.
 9. The Issue format in Json: 
    ```json
    {
