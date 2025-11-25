@@ -4,13 +4,14 @@
 ## Problem: 
 Reimplement HW2 using Spring Boot framework. 
 
-_Learning objectives_
+_Learning objectives:_
 1. Spring Boot microservices.
   
-_Problem statement_
+_Problem statement:_
+
+The goal of this HW is to "reimplement" HW2 using state of the art microservice framework instead of the one we developed in Part B of HW2. 
 
 ### Part A
-The goal of this HW is to "reimplement" HW2 using state of the art microservice framework instead of the one we developed in Part B of HW2. 
 
 We will use [Spring Boot](https://spring.io/projects/spring-boot) as our microservices framework. Please clone the repository [here](https://github.com/davsec-teaching/spring-boot-handout). This repository comes with
 a `pom.xml` file that already contains the library dependencies for Spring Boot. (If you're interested in setting this up yourself, check out https://start.spring.io/). The provided repository contains a `ModerationService.java` source code file that you can use to get started. 
