@@ -44,6 +44,7 @@ make sure you are referring to the latest versions.
   - (`11/19`, `11/21`) Design patterns ([Slides](slides/8_design_patterns.pptx))
 - Week 10
   - (`11/24`, `11/26`) Design patterns
+  - (`11/26`) Discussion 9: Design Patterns ([Slides](https://github.com/davsec-teaching/ecs160-f25/blob/main/slides/ECS160-f25_discussion9.pdf))
   - (`11/28`) Holiday (no class) ([Slides](slides/8_design_patterns.pptx))
 - Week 10
   - (`12/1`, `12/3`) Design patterns
