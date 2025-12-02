@@ -14,7 +14,7 @@ The goal of this HW is to "reimplement" HW2 using state of the art microservice 
 ### Part A
 
 We will use [Spring Boot](https://spring.io/projects/spring-boot) as our microservices framework. Please clone the repository [here](https://github.com/davsec-teaching/spring-boot-handout). This repository comes with
-a `pom.xml` file that already contains the library dependencies for Spring Boot. (If you're interested in setting this up yourself, check out https://start.spring.io/). The provided repository contains a `ModerationService.java` source code file that you can use to get started. 
+a `pom.xml` file that already contains the library dependencies for Spring Boot. (If you're interested in setting this up yourself, check out https://start.spring.io/).
 
 Spring Boot uses Java Annotations to annotate the services. Check out this
 [tutorial](https://codecrunch.org/creating-a-post-and-get-request-springboot-ff6e82a5d46b) for how to use Spring Boot 
