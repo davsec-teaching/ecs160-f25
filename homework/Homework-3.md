@@ -50,7 +50,7 @@ int main(int argc, char **argv) {
     if (!info) {
         fclose(fp);
         png_destroy_read_struct(&png, NULL, NULL);
-        return 0;
+        return -1;
     }
 
     // ... Test other functions
