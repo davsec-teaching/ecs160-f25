@@ -62,8 +62,8 @@ int main(int argc, char **argv) {
 ### Part B: Running the application with the AFL++ fuzzer
 
 1. First, compile AFL++ according to the instructions [here](https://github.com/AFLplusplus/AFLplusplus/blob/stable/docs/INSTALL.md). 
-2. Compile both the library and the harness with the `afl-cc` and the `afl-c++` compilers generated in the previous step.
-3. Fuzz the generated binary for 3 hours **without any seeds.**
+2. Compile both the library and the harness with the `afl-cc` and/or the `afl-c++` compilers generated in the previous step.
+3. Fuzz the generated binary for 1 hours **without any seeds.**
    1) Report the number of crashes found, the coverage, and the execution throughput. 
 5. Download 10 sample PNG files from the internet. Fuzz the generated binary for 1 hour **with these files as seeds.**
    1) Report the number of crashes found, the coverage, and the execution throughput.
