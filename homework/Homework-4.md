@@ -9,12 +9,14 @@ _Learning objectives:_
   
 _Problem statement:_
 
-The goal of this HW is to "reimplement" HW2 using state of the art microservice framework instead of the one we developed in Part B of HW2. 
+The goal of this HW is to "reimplement" HW2 using state of the art microservice framework instead of the one we developed in Part B of HW2. In other words, we will no longer use Part B of HW2
+and Part C of HW2 will use Spring Boot instead. We will continue to use Part A and Part D of HW2.
 
 ### Part A
 
-We will use [Spring Boot](https://spring.io/projects/spring-boot) as our microservices framework. Please clone the repository [here](https://github.com/davsec-teaching/spring-boot-handout). This repository comes with
-a `pom.xml` file that already contains the library dependencies for Spring Boot. (If you're interested in setting this up yourself, check out https://start.spring.io/).
+We will use [Spring Boot](https://spring.io/projects/spring-boot) as our microservices framework.
+Please update the `pom.xml` of your Microservices project (Part C of HW2) to use the `pom.xml` specified [here](https://github.com/davsec-teaching/spring-boot-handout). This
+a `pom.xml` file already contains the library dependencies for Spring Boot. (If you're interested in setting this up yourself, check out https://start.spring.io/).
 
 Spring Boot uses Java Annotations to annotate the services. Check out this
 [tutorial](https://codecrunch.org/creating-a-post-and-get-request-springboot-ff6e82a5d46b) for how to use Spring Boot 
