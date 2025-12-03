@@ -48,5 +48,6 @@ make sure you are referring to the latest versions.
   - (`11/28`) Holiday (no class) ([Slides](slides/8_design_patterns.pptx))
 - Week 10
   - (`12/1`, `12/3`) Design patterns
+  - (`12/3`) Discussion 10: Fuzz Testing + Design Patterns ([Slides](https://github.com/davsec-teaching/ecs160-f25/blob/main/slides/ECS160-f25_discussion10.pdf))
   - (`12/5`) Revision [Review](slides/Review.pptx)))
 - (`12/9`) **Final**,
