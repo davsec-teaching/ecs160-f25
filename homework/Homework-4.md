@@ -40,7 +40,7 @@ public class MyMicroService {
 }
 ```
 
-The Controller specifies the REST endpoint (the url the service is bound to). Sample code for a Controller is as follows. The controller class must be annotated with the `RestController` annotation. We will be using the `HTTP Post` method to send the request to the microservice, so we annotate the function that implements the REST endpoint
+The Controller specifies the REST endpoint (the url the service is bound to). Sample code for a Controller is as follows. The controller class must be annotated with the `RestController` annotation. We will be using the `HTTP GET` method to send the request to the microservice, so we annotate the function that implements the REST endpoint
 as `@GetMapping("/<endpoint_url>")`. See: https://howtodoinjava.com/spring-mvc/controller-getmapping-postmapping/ for more examples.
 
 Edit the `application.properties` file to add `server.port=30000` for the microservice. 
